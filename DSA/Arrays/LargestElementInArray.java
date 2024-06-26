@@ -20,7 +20,7 @@ class LargestElementInArray(){
     public static void main(String args[]){
         int [] arr=new int[5]{8,6,9,2,5};
         int max=arr[0];
-        for(int i=1;i<n;i++){
+        for(int i=1;i<n;i++){ /* running loop from 1 to n --> time complexcity -->O(n) */
             if(arr[i]>max)
             max=arr[i];
         }
