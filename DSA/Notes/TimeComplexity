@@ -1,0 +1,14 @@
+Time Complexity
+   --> The rate at which time taken increases with respect to input size
+   --> represented by using O ()
+   --> 3 rules  --> Always compute Time complexity for the worst case scenario
+                -->avoid constants
+                -->avoid lower values
+      Big O                           Theta                           Omega
+       O()
+upper Bound / Worst case           Average complexity            Best case / Lower bound
+
+Space complexity
+   -->Its memory space taken by program to execute 
+   --> Auxilary space (space taken to solve the program )   +  
+   input space(space taken to store the input)
