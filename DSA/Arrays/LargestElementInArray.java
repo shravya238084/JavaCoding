@@ -1,4 +1,6 @@
 /*
+in VS --need to install java extention pack
+
 int[] arr= new int[5]{8,6,9,2,5};
     Brute force
     --> sort the array
@@ -12,7 +14,8 @@ int[] arr= new int[5]{8,6,9,2,5};
     Optiomal solution
     -->take variable max=arr[0];
     then traverse through loop if element is greater than max then replace max
-
+    
+    running loop from 1 to n --> time complexcity -->O(n)
     */
 
 class LargestElementInArray(){
@@ -20,7 +23,11 @@ class LargestElementInArray(){
     public static void main(String args[]){
         int [] arr=new int[5]{8,6,9,2,5};
         int max=arr[0];
+<<<<<<< HEAD
         for(int i=1;i<n;i++){ /* running loop from 1 to n --> time complexcity -->O(n) */
+=======
+        for(int i=1;i<n;i++){  /* running loop from 1 to n --> time complexcity -->O(n) */
+>>>>>>> 61b372f (notes)
             if(arr[i]>max)
             max=arr[i];
         }
